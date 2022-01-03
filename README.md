@@ -12,11 +12,11 @@ Author of this repository is <strong>Charles Muli</strong>. He is currently a st
 
 ## Project Description
 
-This project is meant to implement everything you have learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio.
+This project is meant to implement everything learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio.
 
 ## Setup Instruction
 
-There is no any script required to run the application however you can visit the <strong>project URL link</strong> [here](https://chaxito.github.io/SafPrep3)
+There is no any script required to run the application, all you need to do is to visit the <strong>project URL link</strong> [here](https://chaxito.github.io/SafPrep3)
 
 
 ## Technologies Used
