@@ -4,3 +4,15 @@
 .center-page {
     padding: bottom 50px;
 }
+.banner-one{
+    background-image: url('../images/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 270px 125px;
+}
+h4{
+    color: black;
+}
+.container-two{
+    padding-top: 50px;
+}
