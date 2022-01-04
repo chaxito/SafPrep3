@@ -8,11 +8,24 @@
     background-image: url('../images/backgrounds/h_img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 270px 125px;
+    padding: 260px 125px;
+    background-position: center;
 }
 h4{
     color: black;
 }
+.mouseclick{
+    
+}
 .container-two{
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+.banner-two {
+    background-image: url('../images/backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 50px;
+    background-position: center;
+
 }
