@@ -56,3 +56,6 @@ h4{
     padding: 100px 50px;
 
 } 
+.form-group {
+    columns: 2;
+}
