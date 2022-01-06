@@ -29,3 +29,30 @@ h4{
     background-position: center;
 
 }
+.icons {
+    padding-top: 50px;
+    
+}
+.icons_space{
+    columns: 3;
+    align-content: center;
+    align-items: stretch;
+}
+.container-three {
+    padding-top: 50px;
+}
+.images_portfolio {
+    columns: 4;
+    padding-top: 25px;  
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 25px;
+}
+.banner-three {
+    background-image: url('../images/backgrounds/c_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 50px;
+
+} 
