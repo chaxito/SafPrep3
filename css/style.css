@@ -4,17 +4,22 @@
 .center-page {
     padding: bottom 50px;
 }
+.intro{
+    padding-top: 200px;
+}
 .banner-one{
     background-image: url('../images/backgrounds/h_img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 260px 125px;
     background-position: center;
 }
 h4{
     color: black;
 }
-.mouseclick{
+.mouseicon{
+    padding-top: 280px;
+    padding-bottom: 30px;
+    
     
 }
 .container-two{
