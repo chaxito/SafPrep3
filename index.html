@@ -121,19 +121,22 @@
         <div align="center">
             <h3>CONTACT US</h3>
             <br>
-            <form action="">
+            <form action="" id="form" >
                 <div class="form-group">
                     <input type="text" class="form-control form-control-sm" name="name" id="name" placeholder="Name..."
-                        style="background-color: transparent;">
+                        style="background-color: transparent;" required="">
                     <input type="email" class="form-control form-control-sm" name="email" id="email"
-                        placeholder="Email..." style="background-color: transparent;">
+                        placeholder="Email..." style="background-color: transparent;" required="">
                 </div>
                 <br>
-                <textarea name="message" rows="8" cols="50" class="form-control" placeholder="Your message here..."
-                    style="background-color: transparent;"></textarea>
+                <textarea name="message" id="message" rows="8" cols="50" class="form-control" placeholder="Your message here..."
+                    style="background-color: transparent;" required=""></textarea>
                 <br>
                 <input type="submit" name="send" id="submit" title="Send">
             </form>
+            <div id="summary">
+                
+            </div>
         </div>
     </div>
     <!-- sixth section -->
