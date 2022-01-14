@@ -34,9 +34,11 @@ h4{
     
 }
 .icons_space{
-    columns: 3;
+    columns:10px 3;
     align-content: center;
     align-items: stretch;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .container-three {
     padding-top: 50px;
@@ -62,7 +64,10 @@ h4{
 .social_media {
     columns: 10;
     padding-top: 50px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 400px;
+    padding-right: 400px;
     padding-bottom: 25px;
+}
+.footer{
+    box-sizing: content-box;
 }
