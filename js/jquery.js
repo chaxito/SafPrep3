@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    $("img#design").mouseover(function(event){
+    $("img#design").click(function(event){
         $("body").removeClass();
-        alert("Design")   
+        $("body").addClass("text");   
         event.preventDefault();
     });
 
@@ -11,7 +11,7 @@ $(document).ready(function(){
         var inputEmail = $("input#email").val();
         var inputMessage = $("textarea#message").val();
 
-        // $(".name").text(inputName);
+        $(".name").text(inputName);
         $(".email").text(inputEmail);
         $(".message").text(inputMessage);
 
