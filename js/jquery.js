@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("img#design").click(function(event){
         $("body").removeClass();
-        $("body").addClass("text");   
+        $("img#design").addClass("text");   
         event.preventDefault();
     });
 
