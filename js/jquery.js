@@ -6,7 +6,7 @@ $(document).ready(function(){
     });
 
     // input form values
-    $("form").submit(function( event ) {
+    $("form").submit(function(event){
         var inputName = $("input#name").val();
         var inputEmail = $("input#email").val();
         var inputMessage = $("input#message").val();
@@ -14,7 +14,7 @@ $(document).ready(function(){
         $(".email").text(inputEmail);
         $(".message").text(inputMessage);
 
-        $("#summary").show();
+        alert("success");
         event.preventDefault();
       });
 
