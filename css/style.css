@@ -61,8 +61,19 @@ h4{
     background-position: center;
     background-size: cover;
     padding: 100px 50px;
-
 } 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
 .form-group {
     columns: 2;
 }
